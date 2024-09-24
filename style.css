@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+
+colors:-
+header background : #2C3E50
+hero background : #18BC9C
+main background color : #F7F7F7
+
+*/
+body{
+     font-family:Arial, Helvetica, sans-serif;
+     background-color: whitesmoke;
+}
+
+
+.header{
+    background-color: #2C3E50;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 8vw;
+    height: 10vh;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+.hero-section{
+    background-color: #18BC9C;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+}
+
+
+.hero-section p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:48px ;
+}
+
+
+.emailbox{
+    color: grey;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+button{
+    background-color: #18BC9C;
+    color: white;
+    
+}
+.Header1{
+    text-align: center;
+    color:#999;
+}
+
+
+.contrainer{
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    background-color: whitesmoke;
+
+}
+:hover.card{
+    background-color: #18BC9C;
+}
+
+.card{
+    width: 20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: larger;
+    
+}
+
+
+.card img{
+    border-radius: 50%;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+
+.card-title{
+    font-weight: bold;
+    font-size: 24px;
+    font-size: larger;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    padding: 0 8vw;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: larger;
+    justify-content: space-between;
+    align-items: center;
+    color: white;    
+}
